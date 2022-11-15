@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+.estilosProductos{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h5{
+    color: black;
+}
+
+/*Card*/
+.card{
+    width: 90%;
+    max-width: 350px;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: white;
+    max-height: 700px;
+}
+.card h3{
+    color: black;
+    margin: 0.5rem 0rem;
+    padding: 0.25rem;
+    padding-top: 1rem;
+    font-size: 2.25rem;
+    height: 120px;
+
+}
+.card img{
+    border: 3px solid black;
+    border-radius: 2%;
+    min-width: 250px;
+    width: 100%;
+    height: 600px;
+}
+.content{
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+.content a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: gray;
+    color: white;
+    background-color: black;
+
+    font-size: 1.25rem;
+
+}
+.content p{
+    padding: 0.25rem;
+}
+.content a:hover{
+    color:red;
+    height: 200%;
+    
+}
+.autorCard{
+    font-size: 2rem;
+    height: 80px;
+}
+.precioCard{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+
+.tituloCard{
+    color: red;
+}
